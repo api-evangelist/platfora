@@ -1,11 +1,29 @@
 aid: platfora
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/platfora.png
 name: Platfora
-description: Platfora is a company surfaced as a portfolio company of a16z, battery-ventures, dcvc, wing-venture-capital
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: Platfora was a big-data analytics company founded in 2011 by Ben Werther that provided
+  in-memory business intelligence and data visualization directly on top of Apache Hadoop, letting
+  analysts run interactive queries, build "lenses," and share dashboards without ETL into a separate
+  warehouse. Backed by Andreessen Horowitz, Battery Ventures, In-Q-Tel and others, it raised roughly
+  $65M before Workday acquired the company in July 2016 and folded the technology into Workday's
+  analytics stack. The standalone Platfora product and platfora.com developer surface were subsequently
+  discontinued; the domain no longer resolves and no public API or developer program remains.
 url: https://raw.githubusercontent.com/api-evangelist/platfora/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
+x-status: defunct
+x-status-reason: Acquired by Workday July 2016; product discontinued; platfora.com no longer resolves (no A/MX records, MarkMonitor NS only).
 x-backed-by:
 - a16z
 - battery-ventures
@@ -15,12 +33,23 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Analytics
+- Big Data
+- Business Intelligence
+- Data Visualization
+- Hadoop
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
