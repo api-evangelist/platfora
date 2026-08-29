@@ -31,6 +31,9 @@ description: Platfora was a big-data analytics company founded in 2011 by Ben We
   analytics stack. The standalone Platfora product and platfora.com developer surface were subsequently
   discontinued; the domain no longer resolves and no public API or developer program remains.
 url: https://raw.githubusercontent.com/api-evangelist/platfora/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "The standalone Platfora product and platfora.com developer surface were subsequently discontinued; the domain no longer resolves and no public API or developer program remains."
 x-type: company
 x-source: vc-portfolio
 x-status: defunct
